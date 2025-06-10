@@ -34,7 +34,7 @@ public class Cliente {
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
             json = response.body();
-            System.out.println(json);
+        //    System.out.println(json);
         } catch (IOException | InterruptedException e) {
             System.out.println("Ha ocurrido un error");
         }

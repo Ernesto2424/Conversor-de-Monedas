@@ -14,7 +14,7 @@ public class ConversorMonedas {
                 .setPrettyPrinting()
                 .create();
         MonedaAPI monedaAPI = gson.fromJson(peticion, MonedaAPI.class);
-        System.out.println(monedaAPI);
+    //    System.out.println(monedaAPI);
         return monedaAPI;
     }
 }
