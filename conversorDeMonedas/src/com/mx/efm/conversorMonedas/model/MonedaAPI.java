@@ -1,4 +1,4 @@
 package com.mx.efm.conversorMonedas.model;
 
-public record MonedaAPI(String base_code,String target_code, String conversion_rate, String conversion_result) {
+public record MonedaAPI(String baseCode,String targetCode, String conversionRate, String conversionResult) {
 }
