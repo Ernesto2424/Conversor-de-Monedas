@@ -17,7 +17,7 @@ public class Main {
         boolean continuar = true;
         StringBuilder menu = new StringBuilder();
         menu.append("************************************************************\n");
-        menu.append("Sea bienvenido/a al Conversor de Moneda =]\n");
+        menu.append("Sea bienvenido/a al Conversor de Moneda 🔍 \n");
         menu.append("1) Dólar =>> Peso argentino\n");
         menu.append("2) Peso argentino =>> Dólar\n");
         menu.append("3) Dólar =>> Real brasileño\n");
